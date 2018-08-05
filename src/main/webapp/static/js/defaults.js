@@ -8,12 +8,16 @@ var Colors = (function(){
         ["cyan","#00ffff",255],
         ["yellow","#ffff00",255],
         ["white","#ffffff",255],
-				["dark red","#660000",255],
-				["dark blue","#000099",255],
-				["dark green","#006600",255],
+	["dark red","#660000",255],
+	["dark blue","#000099",255],
+	["dark green","#006600",255],
         ["brown","#663300",255],
-				["dark purple","#660066",255],
-        ["dark grey","#666666",255]
+	["dark purple","#660066",255],
+        ["dark grey","#666666",255],
+		["gray","#808080",255],
+		["silver","#C0C0C0",255],
+		["dark orange","#FF8C00",255],
+		["gold","#FFD700",255]
     ];
     var defaultColor = colors[0];
     var toHex = function(inputNumber){
@@ -148,7 +152,11 @@ var Colors = (function(){
 var Fonts = (function(){
     var families = [
 	"sans-serif",
-        "serif"
+        "serif",
+		"helvetica",
+		"times new roman",
+		"courier",
+		"courier new"
     ];
     var sizes = [12,14,16,18,20,30,42,60];
     return {
